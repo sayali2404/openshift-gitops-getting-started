@@ -1,4 +1,5 @@
 resources:
-- deployment.yaml
-- service.yaml
-- route.yaml
+- ns-kubeturbo-operator.yaml
+- og-kubeturbo-operator.yaml
+- sub-kubeturbo-operator.yaml
+- kubeturbo.yaml
