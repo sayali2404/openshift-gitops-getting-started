@@ -1,0 +1,15 @@
+apiVersion: charts.helm.k8s.io/v1
+kind: Kubeturbo
+metadata:
+  name: kubeturbo-release
+  namespace: kube-turbo
+spec:
+  image:
+    repository: registry.connect.redhat.com
+    tag: 8.0.7
+  restAPIConfig:
+    opsManagerPassword: 'password'
+    opsManagerUserName: "user"
+  serverMeta:
+    turboServer: "https://turbsample.srv.bmo.net"
+    version: '8.0'
